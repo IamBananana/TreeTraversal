@@ -6,5 +6,5 @@ public interface TreeADT<E> {
 
     Node<E> addNode(LinkedList<Node <E>> child, E value);
 
-    public Node<E> getRoot();
+    Node<E> getRoot();
 }
